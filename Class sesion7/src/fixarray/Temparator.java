@@ -31,6 +31,7 @@ public class Temparator {
         }
         double average=(double)sum/numDays;
         //count days above average 
+        
         int above = 0;
         for (int i = 0; i < temps.length; i++) {
             if(temps[i]>average){
